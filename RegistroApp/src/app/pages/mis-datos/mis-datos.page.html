@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>{{ 'Map.Button.MisDatos' | translate }}</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div>
+    <h3> {{ 'HomePage.Title.Home' | translate }} {{usuario.firstName}} {{ usuario.lastName }} </h3>
+  </div>
+
+  <ion-item><ion-label>{{ 'Datos.Label.Account' | translate }}</ion-label>
+    <ion-input
+        [(ngModel)]="usuario.userName"></ion-input></ion-item>
+
+  <ion-item> <ion-item>
+    <ion-label>{{'ThemePage.Form.NameLabel'| translate}}</ion-label>
+  </ion-item> <ion-input labelPlacement="floating"
+        [(ngModel)]="usuario.firstName"></ion-input></ion-item>
+
+  <ion-item><ion-input label="Apellido" labelPlacement="floating"
+         [(ngModel)]="usuario.lastName"></ion-input></ion-item>
+
+  <ion-item><ion-input label="Correo" labelPlacement="floating"
+        [(ngModel)]="usuario.email"></ion-input></ion-item>
+
+  <ion-item><ion-input label="Direccion" labelPlacement="floating"
+        [(ngModel)]="usuario.address"></ion-input></ion-item>
+
+
+
+  <ion-item><ion-input label="Pregunta secreta" labelPlacement="floating"
+        [(ngModel)]="usuario.secretQuestion"></ion-input></ion-item>
+
+  <ion-item><ion-input label="Respuesta secreta" labelPlacement="floating"
+        [(ngModel)]="usuario.secretAnswer"></ion-input></ion-item>
+
+
+  <ion-item class="font-size-12">
+    <ion-select [(ngModel)]="usuario.educationalLevel.id"
+        (ionChange)="actualizarNivelEducacional($event)"
+        label="Educación" labelPlacement="floating">
+      <ion-select-option *ngFor="let nivelEducacional of listaNivelesEducacionales"
+        [value]="nivelEducacional.id">
+          {{nivelEducacional.name}}
+      </ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <app-date-picker
+        [(ngModel)]="usuario.dateOfBirth"
+        (ionChange)="onFechaNacimientoChange($event)"
+        label="Nacimiento"
+        labelPlacement="floating">
+    </app-date-picker>
+  </ion-item>
+  
+  <ion-item><ion-input label="Contraseña" labelPlacement="floating"
+    [(ngModel)]="usuario.password" type="password"></ion-input></ion-item>
+
+
+  <ion-button (click)="guardarUsuario()">
+    {{ 'MyData.Button.Guardar' | translate }}
+  </ion-button>
+  <ion-button (click)="goBack()">{{ 'HomePage.Button.Wellcome' | translate }}</ion-button>
+
+</ion-content>

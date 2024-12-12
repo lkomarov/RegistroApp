@@ -1,0 +1,57 @@
+<ion-content>
+
+  <div class="background-image" *ngIf="asi"></div>
+
+  <ion-grid fixed *ngIf="asi" class="dino-content">
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.Sede' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.sede }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.IdAsig' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.idAsignatura }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.Seccion' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.seccion }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.Asig' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.nombreAsignatura }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.Prof' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.nombreProfesor }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.Dia' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.dia }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.BloqIni' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.bloqueInicio }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.BloqTer' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.bloqueTermino }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.HoraIni' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.horaInicio }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">{{ 'Asistencia.Form.HoraTer' | translate }}</ion-col>
+      <ion-col size="7">{{ asi.horaFin }}</ion-col>
+    </ion-row>
+
+
+
+  </ion-grid>
+
+  <div *ngIf="!asi" class="center-frame">
+    <div class="picture-frame ion-text-center">
+      <img class="you-must-scan" src="/assets/images/you-must-scan.png">
+    </div>
+  </div>
+
+</ion-content>

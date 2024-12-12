@@ -1,0 +1,42 @@
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title #animatedTitle>Sistema de Asistencia DUOC</ion-title>
+      <ion-buttons slot="end">
+        <app-language>{{ 'Language' | translate }}</app-language>
+        <ion-button (click)="gotheme()">{{ 'ThemePage.Label.ColorTheme' | translate }}</ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <!-- Contenedor principal centrado -->
+  <div class="container">
+    <div class="form-box">
+      <!-- Logo de Duoc -->
+      <img src="assets/images/LogoDuoc.png" alt="Logo Duoc" class="logo" />
+
+      <!-- Título de ingreso -->
+      <h2>{{ 'Login.Title.Login' | translate }}</h2>
+
+      <!-- Formulario de ingreso -->
+      <ion-item>
+        <ion-label position="floating">{{ 'Login.Label.Email' | translate }}</ion-label>
+        <br>
+        <ion-input [(ngModel)]="cuenta" type="email" id="correo" data-testid="correo"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">{{ 'Login.Label.Password' | translate }}</ion-label>
+        <br>
+        <ion-input [(ngModel)]="password" type="password" id="password" data-testid="password"></ion-input>
+      </ion-item>
+
+      <!-- Botón principal -->
+      <ion-button expand="full" (click)="login()" id="ingresar">{{ 'Login.Button.Login' | translate }}</ion-button>
+
+      <!-- Botones adicionales -->
+      <div class="forgot-password">
+        <ion-button (click)="recuperarContrasena()">{{ 'Login.Button.ForgotPassword' | translate }}</ion-button>
+        <ion-button (click)="rutaduoc()">{{ 'Login.Button.Ruta' | translate }}</ion-button>
+      </div>
+    </div>
+  </div>
+</ion-content>

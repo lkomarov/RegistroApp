@@ -1,0 +1,20 @@
+<ion-content fullscreen>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Sistema de Asistencia DUOC</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Contenedor principal -->
+  <div class="container">
+    <div class="form-box">
+      <!-- Imagen y mensaje -->
+      <h1>{{ 'Correcto.Text.Mensaje' | translate }}</h1>
+      <h1>{{ password }}</h1>
+      <img src="../../../assets/images/correcto.jpeg" alt="Intento exitoso" class="status-image" *ngIf="imagen" />
+
+      <!-- Botón de inicio de sesión -->
+      <ion-button expand="full" (click)="iniciarSesion()">{{ 'Login.Button.Login' | translate }}</ion-button>
+    </div>
+  </div>
+</ion-content>

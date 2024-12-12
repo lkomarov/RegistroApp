@@ -1,0 +1,113 @@
+{
+    "AppName": "Registro asistencia Duoc",
+    "Language": "Language",
+    "Language.English": "English",
+    "Language.Spanish": "Español",
+    "Language.Mapudungun": "Mapudungun",
+
+    "Start.StartNewExperience": "Start a new experience",
+
+    "Login.Title.Login": "Login",
+    "Login.Label.Email": "Nickname",
+    "Login.Placeholder.Email": "Enter your email here",
+    "Login.Label.Password": "Password",
+    "Login.Placeholder.Password": "Enter your password here",
+    "Login.Button.Login": "Login",
+    "Login.Button.Signin": "Sign Up",
+    "Login.Button.ForgotPassword": "Forgot my password",
+    "Login.Button.DarkMode": "Dark Mode",
+    "Login.Button.Ruta": "Route to DUOC",
+
+    "WelcomePage.Title.Wellcome": "Welcome to Register your attendance DUOC!",
+
+    "HomePage.Button.Wellcome": "Home",
+    "HomePage.Button.Scan": "Scan",
+    "HomePage.Button.MisDatos": "My Data",
+    "HomePage.Button.Forum": "Forum",
+    "HomePage.Button.MiClase":"My class",
+    "HomePage.Title.Home": "Welcome",
+
+    "ThemePage.Label.ColorTheme": "Color Theme:",
+    "ThemePage.Color.Light": "Light",
+    "ThemePage.Color.Dark": "Dark",
+    "ThemePage.Color.Green": "Green",
+    "ThemePage.Color.Red": "Red",
+    "ThemePage.Color.Facebook": "Facebook",
+    "ThemePage.Color.Instagram": "Instagram",
+    "ThemePage.Color.Sunrise": "Sunrise",
+    "ThemePage.Color.Duoc": "Duoc",
+
+    "ThemePage.Button.Primary": "Primary Button",
+    "ThemePage.Button.Secondary": "Secondary Button",
+    "ThemePage.Button.Tertiary": "Tertiary Button",
+    "ThemePage.Button.Success": "Success Button",
+    "ThemePage.Button.Warning": "Warning Button",
+    "ThemePage.Button.Danger": "Danger Button",
+    "ThemePage.Button.Light": "Light Button",
+    "ThemePage.Button.Dark": "Dark Button",
+    "ThemePage.Button.Sunrise": "Sunrise",
+    "ThemePage.Button.Home": "Home",
+    "ThemePage.Button.Logout": "Logout",
+
+    "ThemePage.Card.Title": "Card Title",
+    "ThemePage.Card.Subtitle": "Card Subtitle",
+    "ThemePage.Card.Content": "This is the content of the card. You can customize the colors of the card and its content.",
+
+    "ThemePage.List.Title": "Lists",
+    "ThemePage.List.Item1": "List Item 1",
+    "ThemePage.List.Item2": "List Item 2",
+    "ThemePage.List.Item3": "List Item 3",
+
+    "ThemePage.Calendar.Title": "Calendars",
+
+    "ThemePage.Form.Title": "Data Entry",
+    "ThemePage.Form.NameLabel": "Name",
+    "ThemePage.Form.NamePlaceholder": "Enter your name",
+    "ThemePage.Form.DescriptionLabel": "Description",
+    "ThemePage.Form.DescriptionPlaceholder": "Write a description here...",
+    "ThemePage.Form.ToggleLabel": "Enable notifications",
+    "ThemePage.Form.CheckboxLabel": "I accept the terms",
+
+    "Asistencia.Form.Sede": "Campus",
+    "Asistencia.Form.IdAsig": "Course ID",
+    "Asistencia.Form.Seccion": "Section",
+    "Asistencia.Form.Asig": "Course",
+    "Asistencia.Form.Prof": "Teacher",
+    "Asistencia.Form.Dia": "Day",
+    "Asistencia.Form.BloqIni": "First Period",
+    "Asistencia.Form.BloqTer": "Last Period",
+    "Asistencia.Form.HoraIni": "Start",
+    "Asistencia.Form.HoraTer": "End",
+
+    "Forum.Title.Gestion": "Posts Management",
+    "Forum.Post.Title": "Títle",
+    "Forum.Post.Text": "Description",
+    "Forum.Button.Limpiar": "Clean All",
+    "Forum.Title.Recents": "Recent Posts",
+    "Forum.Post.Post": "Post",
+
+    "Qr.Button.Stop": "Stop QR scan",
+
+    "Correcto.Text.Mensaje": "¡That is correct! Your password is ",
+
+    "Correo.Title.Title": "Input your email",
+    "Correo.Button.Continuar": "Continue",
+
+    "Incorrecto.Text.Mensaje": "That is incorrect, try again",
+
+    "Map.Button.Aqui": "Here",
+    "Map.Button.Ruta": "Route",
+    "Map.Button.MisDatos": "My Data",
+
+    "MyData.Button.Guardar": "Save",
+
+    "Pregunta.Text.Text": "Answer the secret question",
+
+    "Datos.Label.Account": "Account",
+    "Datos.Label.Apellido": "Last name",
+    "Datos.Label.Adress": "Adress",
+    "Datos.Label.PregSecret": "Secret question",
+    "Datos.Label.Answer": "Secret answer",
+    "Datos.Label.Educ": "Education",
+    "Datos.Label.Nac": "Date of birth"
+}

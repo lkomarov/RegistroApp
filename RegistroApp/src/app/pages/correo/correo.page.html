@@ -1,0 +1,28 @@
+<ion-content fullscreen>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Sistema de Asistencia DUOC</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <!-- Contenedor principal centrado -->
+    <div class="container">
+      <div class="form-box">
+        <!-- Logo de Duoc -->
+        <img src="assets/images/LogoDuoc.png" alt="Logo Duoc" class="logo" />
+  
+        <!-- Título de ingreso -->
+        <h2>{{ 'Correo.Title.Title' | translate }}</h2>
+  
+        <!-- Campo de correo -->
+        <input [(ngModel)]="email" type="email" placeholder="Correo electrónico" />
+  
+        <!-- Botón de continuar -->
+        <ion-button (click)="validateEmail()" class="login-button">{{ 'Correo.Button.Continuar' | translate }}</ion-button>
+  
+        <!-- Botón de inicio de sesión -->
+        <ion-button (click)="goToLogin()" class="login-button">{{ 'Login.Button.Login' | translate }}</ion-button>
+      </div>
+    </div>
+  </ion-content>
+  

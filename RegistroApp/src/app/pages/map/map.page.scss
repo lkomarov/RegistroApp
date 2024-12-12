@@ -1,0 +1,50 @@
+#mapId {
+  height: 100vh; /* Hace que el mapa ocupe todo el alto de la pantalla */
+}
+
+// Fondo para toda la página en blanco
+ion-content {
+  --background: #ffffff;
+}
+
+// Estilos para el mapa
+#mapId {
+  height: 100%;
+  border-radius: 8px; // Bordes redondeados
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); // Sombra suave
+}
+
+// Estilos para el footer
+ion-footer {
+  background-color: #f4f4f4; // Fondo gris claro para diferenciar el footer
+  border-top: 1px solid #ccc; // Borde superior para separar el footer
+}
+
+// Estilos para la barra de herramientas del footer
+ion-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  ion-button {
+    --background: #007bff; // Color de fondo del botón
+    --background-activated: #0056b3; // Color cuando el botón es presionado
+    --border-radius: 20px; // Bordes redondeados
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 3px 6px rgba(0, 123, 255, 0.4); // Sombra del botón
+    margin: 0 5px; // Espaciado entre botones
+
+    &:hover {
+      filter: brightness(1.1); // Efecto de brillo al pasar el cursor
+    }
+  }
+
+  // Estilo para la distancia mostrada en el footer (si existe)
+  div[ng-if="distance"] {
+    color: #333;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+}

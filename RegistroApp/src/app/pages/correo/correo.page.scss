@@ -1,0 +1,83 @@
+// Extiende el contenido para llenar la pantalla
+ion-content {
+    --background: #000000; // Fondo claro
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  // Contenedor principal
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  // Caja de formulario
+  .form-box {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  
+    @media screen and (min-width: 480px) {
+      width: 400px;
+    }
+  
+    // Logo
+    .logo {
+      width: 100%;
+      height: auto;
+      max-height: 80px;
+      margin-bottom: 15px;
+      object-fit: contain;
+    }
+  
+    // Título
+    h2 {
+      font-size: 1.5em;
+      color: #333;
+      margin-bottom: 15px;
+    }
+  
+    // Campo de entrada de correo
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      font-size: 1em;
+      color: #333;
+      background-color: #f9f9f9; // Fondo claro consistente con otros campos
+    }
+  
+    // Botones de la página de correo (Continuar y Iniciar sesión)
+    ion-button, .login-button {
+      color: #000;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      width: 100%;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+  
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+  
+      &:hover {
+        background-color: #9c9797;
+      }
+    }
+  }
+  

@@ -1,0 +1,114 @@
+{
+    "AppName": "Registro asistencia Duoc",
+    "Language": "Idioma",
+    "Language.English": "English",
+    "Language.Spanish": "Español",
+    "Language.Mapudungun": "Mapudungun",
+
+    "Start.StartNewExperience": "Comienza una nueva experiencia",
+
+    "Login.Title.Login": "Iniciar sesión",
+    "Login.Label.Email": "Nombre de usuario",
+    "Login.Placeholder.Email": "Ingresa aquí tu correo",
+    "Login.Label.Password": "Contraseña",
+    "Login.Placeholder.Password": "Ingresa aquí tu contraseña",
+    "Login.Button.Login": "Ingresar",
+    "Login.Button.Signin": "Registrarse",
+    "Login.Button.ForgotPassword": "Olvidé mi contraseña",
+    "Login.Button.DarkMode": "Oscuro",
+    "Login.Button.Ruta": "Ruta a DUOC",
+
+    "WelcomePage.Title.Wellcome": "¡Bienvenido a Registro asistencia DUOC!",
+
+    "HomePage.Button.Wellcome": "Inicio",
+    "HomePage.Button.Scan": "Escanear",
+    "HomePage.Button.MisDatos": "Mis Datos",
+    "HomePage.Button.Forum": "Foro",
+    "HomePage.Button.MiClase":"Mi clase",
+    "HomePage.Title.Home": "Bienvenido(a)",
+
+    "ThemePage.Label.ColorTheme": "Tema de color:",
+    "ThemePage.Color.Light": "Claro",
+    "ThemePage.Color.Dark": "Oscuro",
+    "ThemePage.Color.Green": "Verde",
+    "ThemePage.Color.Red": "Rojo",
+    "ThemePage.Color.Facebook": "Facebook",
+    "ThemePage.Color.Instagram": "Instagram",
+    "ThemePage.Color.Sunrise": "Sunrise",
+    "ThemePage.Color.Duoc": "DUOC",
+
+    "ThemePage.Button.Primary": "Botón Primario",
+    "ThemePage.Button.Secondary": "Botón Secundario",
+    "ThemePage.Button.Tertiary": "Botón Terciario",
+    "ThemePage.Button.Success": "Botón Éxito",
+    "ThemePage.Button.Warning": "Botón Advertencia",
+    "ThemePage.Button.Danger": "Botón Peligro",
+    "ThemePage.Button.Light": "Botón Claro",
+    "ThemePage.Button.Dark": "Botón Oscuro",
+    "ThemePage.Button.Sunrise": "Botón Amanecer",
+    "ThemePage.Button.Home": "Inicio",
+    "ThemePage.Button.Logout": "Salir",
+
+    "ThemePage.Card.Title": "Título de la Tarjeta",
+    "ThemePage.Card.Subtitle": "Subtítulo de la Tarjeta",
+    "ThemePage.Card.Content": "Este es el contenido de la tarjeta. Puedes personalizar los colores de la tarjeta y su contenido.",
+
+    "ThemePage.List.Title": "Listas",
+    "ThemePage.List.Item1": "Elemento de Lista 1",
+    "ThemePage.List.Item2": "Elemento de Lista 2",
+    "ThemePage.List.Item3": "Elemento de Lista 3",
+
+    "ThemePage.Calendar.Title": "Calendarios",
+
+    "ThemePage.Form.Title": "Ingreso de datos",
+    "ThemePage.Form.NameLabel": "Nombre",
+    "ThemePage.Form.NamePlaceholder": "Ingresa tu nombre",
+    "ThemePage.Form.DescriptionLabel": "Descripción",
+    "ThemePage.Form.DescriptionPlaceholder": "Escribe aquí una descripción...",
+    "ThemePage.Form.ToggleLabel": "Activar notificaciones",
+    "ThemePage.Form.CheckboxLabel": "Acepto los términos",
+
+    "Asistencia.Form.Sede": "Sede",
+    "Asistencia.Form.IdAsig": "ID Asignatura",
+    "Asistencia.Form.Seccion": "Sección",
+    "Asistencia.Form.Asig": "Nombre Asignatura",
+    "Asistencia.Form.Prof": "Nombre Profesor",
+    "Asistencia.Form.Dia": "Día",
+    "Asistencia.Form.BloqIni": "Bloque Inicio",
+    "Asistencia.Form.BloqTer": "Bloque Término",
+    "Asistencia.Form.HoraIni": "Hora Inicio",
+    "Asistencia.Form.HoraTer": "Hora Término",
+
+    "Forum.Title.Gestion": "Gestión de Publicaciones",
+    "Forum.Post.Title": "Título",
+    "Forum.Post.Text": "Descripción",
+    "Forum.Button.Limpiar": "Limpiar",
+    "Forum.Title.Recents": "Publicaciones Recientes",
+    "Forum.Post.Post": "Publicación",
+
+    "Qr.Button.Stop": "Detener escaneo de QR",
+
+    "Correcto.Text.Mensaje": "¡Correcto! Tu contraseña es ",
+
+    "Correo.Title.Title": "Ingresa tu correo",
+    "Correo.Button.Continuar": "Continuar",
+
+    "Incorrecto.Text.Mensaje": "Los datos ingresados son incorrectos, inténtalo de nuevo",
+
+    "Map.Button.Aqui": "Aqui",
+    "Map.Button.Ruta": "Ruta",
+    "Map.Button.MisDatos": "Mis Datos",
+
+    "MyData.Button.Guardar": "Guardar",
+
+    "Pregunta.Text.Text": "Responde a la pregunta secreta",
+
+    "Datos.Label.Account": "Cuenta",
+    "Datos.Label.Apellido": "Apellido",
+    "Datos.Label.Adress": "Dirección",
+    "Datos.Label.PregSecret": "Pregunta secreta",
+    "Datos.Label.Answer": "Respuesta secreta",
+    "Datos.Label.Educ": "Educación",
+    "Datos.Label.Nac": "Nacimiento"
+
+}

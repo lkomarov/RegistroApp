@@ -1,0 +1,30 @@
+<ion-content fullscreen>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Sistema de Asistencia DUOC</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <!-- Contenedor principal centrado -->
+    <div class="container">
+      <div class="form-box">
+        <!-- Logo de Duoc -->
+        <img src="assets/images/LogoDuoc.png" alt="Logo Duoc" class="logo" /> 
+  
+        <!-- Bienvenida y pregunta secreta -->
+        <h2>{{ 'HomePage.Title.Home' | translate }} {{ userName }} {{userLastName}}</h2>
+        <h2>{{ 'Pregunta.Text.Text' | translate }}</h2>
+        <p>{{ userSecretQuestion }}</p>
+  
+        <!-- Campo de respuesta -->
+        <input [(ngModel)]="secretAnswer" type="text" placeholder="Respuesta" />
+  
+        <!-- Botón de continuar -->
+        <ion-button (click)="validateSecretAnswer()" class="login-button">{{ 'Correo.Button.Continuar' | translate }}</ion-button>
+  
+        <!-- Botón de inicio de sesión -->
+        <ion-button (click)="goToLogin()" class="login-button">{{ 'Login.Button.Login' | translate }}</ion-button>
+      </div>
+    </div>
+  </ion-content>
+  
